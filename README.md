@@ -9,5 +9,5 @@ This code is implementain of the paper entitled DEEPLY SUPERVISED SELF-ATTENTION
 
 ## Proposed Model
 
-![Mode design {()
+![Mode design {(https://github.com/bmiftah/DSP_Person_ReID/blob/main/Model%20Design.png)
 
