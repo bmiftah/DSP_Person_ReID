@@ -46,3 +46,6 @@ Our model show resieliance for pose varation as can be seen below
 ## Ablation Study - correlation among lerned features 
 To left side is correlation of feature learned by our model and the one on the left is from the baseline model. As can be seen, feature learned by our model tend to be much correlated as evidenced from the dense region around the diagonal 
 ![ feature correlation ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Feature%20correlation%20amount%20features.png)
+
+## Citiaion
+If you find this code or part of this helpful for you reserach , please cite our paper and paper Xiong Dei and his coauthors for his kind contribution , More in : https://github.com/XiongDei/Spatial-Attention
