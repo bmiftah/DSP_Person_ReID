@@ -18,4 +18,7 @@ As can be seen from the above model , the re-id task here is framed as classifia
 
 Python 3.6, Pytorch 2.0 
 ## Dataset 
-![Market-1501](https://pan.baidu.com/s/1qlCJEdEY7UueGL-VdhH6xw) use password 1ir5 ( I credit the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availaing the data and I am using the same location as mention in thier repo ![here] (https://github.com/XiongDei/Spatial-Attention)
+![Market-1501](https://pan.baidu.com/s/1qlCJEdEY7UueGL-VdhH6xw) use password 1ir5 ( I give full credit the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availing the data and I am using the same location as mention in thier repo ![here] (https://github.com/XiongDei/Spatial-Attention)
+## Ablation Study
+
+![feature map from our DSP model ]
