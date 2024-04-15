@@ -18,16 +18,22 @@ As can be seen from the above model , the re-id task here is framed as classifia
 
 Python 3.6, Pytorch 2.0 
 ## Dataset 
-![Market-1501](https://pan.baidu.com/s/1qlCJEdEY7UueGL-VdhH6xw) use password 1ir5 ( I give full credit the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availing the data and I am using the same location as mention in thier repo ![here] (https://github.com/XiongDei/Spatial-Attention)
+![Market-1501](https://pan.baidu.com/s/1qlCJEdEY7UueGL-VdhH6xw) use password 1ir5 ( I give full credit to the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availing the data and I am using the same location as mention in thier repo ![here] (https://github.com/XiongDei/Spatial-Attention)
 ## Ablation Study - sample feature 
-Hereunder we show feature extracted by the original Resnet-50 model and the our DSP model . For each pair of images. The one on the left is the original and the one on the right is our model's feature
+Hereunder we show feature extracted by the original Resnet-50 model and the our DSP model . For each pair of images. The one on the left is the original and the one on the right is our model's feature. (Refer that paper for detail discussion
 
-![ sample feature map from our DSP model ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation%20study.png)
+-----------------  Block -1             ------------|----------------------   Block -2  -----------
+  
+
+
+  
+![ sample feature map from our DSP model ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation%20study.png)  
 
 ## Ablation Study - pose variation captured 
 Our model show resieliance for pose varation as can be seen below 
-![pose variation ] (https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation_study_2.png)
+![pose variation ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation_study_2.png)
 
 
 ## Ablation Study - correlation among lerned features 
-![ feature correlation ] ()
+To left side is correlation of feature learned by our model and the one on the left is from the baseline model. As can be seen, feature learned by our model tend to be much correlated as evidenced from the dense region around the diagonal 
+![ feature correlation ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Feature%20correlation%20amount%20features.png)
