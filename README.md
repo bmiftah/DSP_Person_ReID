@@ -20,7 +20,9 @@ Python 3.6, Pytorch 2.0
 ## Training the model 
 use the below command to pass comman line argument to the main.py , inlcuding dataset path , and other parameters 
 
-!python main.py -d market -b 48 -j 4 --epochs 50 --log logs/market/ --combine-trainval --step-size 40 --data-dir Market-1501
+!python main.py -d market -b 48 -j 4 --epochs 50 --log logs/market/ --combine-trainval --step-size 40 --data-dir Market-1501  
+
+Running the code might display extra information other than epoch no, and lose. I put those print function to monitor some code but you may comment them all. I run it on colab directly but you can try it on you local machine if you have GPU. 
 
 ## Extracting feature map
 To extract feature map. Use  single_images_features_3.py and single_features_cam.py  . Make sure to specify path to the image and the trained model. Note that image from which you want to extract feature need to be converted to .npy array before passed on to the extractor. I already have converted some of the sample image and you see some result in the folder named 'sample_features'
