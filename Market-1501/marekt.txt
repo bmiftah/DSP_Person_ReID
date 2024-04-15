@@ -1,1 +1,1 @@
-
+After downloadin the dataset , put the sub-folder of the file you download under this directory. sub-folders like bounding_box_test, bounding_box_train,gt_bbox,gt_query,query
