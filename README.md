@@ -48,4 +48,4 @@ To left side is correlation of feature learned by our model and the one on the l
 ![ feature correlation ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Feature%20correlation%20amount%20features.png)
 
 ## Citiaion
-If you find this code or part of this helpful for you reserach , please cite our paper and paper Xiong Dei and his coauthors for his kind contribution , More in : https://github.com/XiongDei/Spatial-Attention
+If you find this code or part of this helpful for you reserach , please cite our paper "DEEPLY SUPERVISED SELF-ATTENTION LEARNING MODEL FOR PERSON RE-IDENTIFICATION",  and paper Xiong Dei and his coauthors for his kind contribution , More in : https://github.com/XiongDei/Spatial-Attention
