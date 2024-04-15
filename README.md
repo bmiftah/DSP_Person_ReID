@@ -19,7 +19,11 @@ As can be seen from the above model , the re-id task here is framed as classifia
 Python 3.6, Pytorch 2.0 
 ## Training the model 
 use the below command to pass comman line argument to the main.py , inlcuding dataset path , and other parameters 
+
 !python main.py -d market -b 48 -j 4 --epochs 50 --log logs/market/ --combine-trainval --step-size 40 --data-dir Market-1501
+
+## Extracting feature map
+To extract feature map. Run    . Note that image from which you want to extract feature need to be converted to .npy array before passed on to the extractor. see more on the file 
 ## Dataset 
 ![Market-1501](https://pan.baidu.com/s/1qlCJEdEY7UueGL-VdhH6xw) use password 1ir5 ( I give full credit to the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availing the data and I am using the same location as mention in thier repo ![here] (https://github.com/XiongDei/Spatial-Attention)
 ## Ablation Study - sample feature 
