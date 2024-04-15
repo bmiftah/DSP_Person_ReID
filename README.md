@@ -19,6 +19,11 @@ As can be seen from the above model , the re-id task here is framed as classifia
 Python 3.6, Pytorch 2.0 
 ## Dataset 
 ![Market-1501](https://pan.baidu.com/s/1qlCJEdEY7UueGL-VdhH6xw) use password 1ir5 ( I give full credit the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availing the data and I am using the same location as mention in thier repo ![here] (https://github.com/XiongDei/Spatial-Attention)
-## Ablation Study
+## Ablation Study - sample feature 
+Hereunder we show feature extracted by the original Resnet-50 model and the our DSP model . For each pair of images. The one on the left is the original and the one on the right is our model's feature
 
-![feature map from our DSP model ]
+![ sample feature map from our DSP model ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation%20study.png)
+
+## Ablation Study - pose variation captured 
+Our model show resieliance for pose varation as can be seen below 
+![pose variation ] (
