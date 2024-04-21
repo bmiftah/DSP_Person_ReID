@@ -52,7 +52,12 @@ Hereunder we show feature extracted by the original Resnet-50 model and the our 
 
 ## Ablation Study - pose variation captured 
 Our model show resieliance for pose varation as can be seen below 
+
 ![pose variation ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation_study_2.png)
+
+## Ablation Study - pair of images one with occlusion and another with no occlusion. The feature extracted from occluded image is suffcient enough to re-identify the other with no occlusion.
+![pose variation ]()
+
 
 
 ## Ablation Study - correlation among lerned features 
