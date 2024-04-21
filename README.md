@@ -45,6 +45,10 @@ Hereunder we show feature extracted by the original Resnet-50 model and the our 
 
   
 ![ sample feature map from our DSP model ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation%20study.png)  
+## Additional features for sample images from DukeMTCN-Re-ID dataset 
+
+![Additional feature DukeMTCN-Re-ID](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation_study_2.png)
+
 
 ## Ablation Study - pose variation captured 
 Our model show resieliance for pose varation as can be seen below 
