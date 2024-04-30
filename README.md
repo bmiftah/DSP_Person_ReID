@@ -35,7 +35,8 @@ Running the code might display extra information other than epoch no, and lose. 
 ## Extracting feature map
 To extract feature map. Use  single_images_features_3.py and single_features_cam.py  . Make sure to specify path to the image and the trained model. Note that image from which you want to extract feature need to be converted to .npy array before passed on to the extractor. I already have converted some of the sample image and you see some result in the folder named 'sample_features'
 ## Dataset 
-![Market-1501](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html) ( I give full credit to the  authors of the paper entitled "Parameter-Free Spatial Attention Network for Person Re-Identification" for availing the data and I am using the same location as mention in thier repo ![here](https://pan.baidu.com/share/init?surl=qlCJEdEY7UueGL-VdhH6xw)
+![Market-1501](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html)  Dataset is avaialable [here](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html)
+
 ## Ablation Study - sample feature 
 Hereunder we show feature extracted by the original Resnet-50 model and the our DSP model . For each pair of images. The one on the left is the original and the one on the right is our model's feature. (Refer that paper for detail discussion
 
