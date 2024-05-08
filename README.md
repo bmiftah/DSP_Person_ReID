@@ -51,8 +51,8 @@ Hereunder we show feature extracted by the original Resnet-50 model and the our 
 ![Additional feature DukeMTCN-Re-ID](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Figure_6.png)
 
 
-## Ablation Study - pose variation captured 
-Our model show resieliance for pose varation as can be seen below 
+<!-- ## Ablation Study - pose variation captured 
+Our model show resieliance for pose varation as can be seen below -->
 
 <!-- ![pose variation ](https://github.com/bmiftah/DSP_Person_ReID/blob/main/Abalation_study_2.png) -->
 
